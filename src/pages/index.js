@@ -1,7 +1,7 @@
 
 import React from "react"
 
-import TestButton from '../components/testbutton.js'
+import TestOption from '../components/testoption.js'
 
 //const styles = {
 //  test_grid:
@@ -17,25 +17,29 @@ export default function IndexPage() {
   
   return (
     <main>
+    
+    <body className='bg-zinc-800 text-white box-border h-screen'>
 
-    <body className='bg-zinc-900 text-white m-0 p-5 box-border h-screen'>
-      <div className='h-fit w-fit p-2 flex flex-col items-start'>
-        <div className='bg-gray-800 text-green-600 border-2 border-zinc-600 px-5'>
-          Option 1
+      <div className="w-full h-full">
+        
+        <div className='bg-zinc-900 w-full h-prc5'>
+          header
         </div>
-        <div className='bg-zinc-800 border-zinc-600 px-1 border-x-2 border-b-2 self-center'>
-          {TestButton('Active: ')}
+
+        <div className="w-full h-prc90 px-5">
+        body
+
+        <TestOption> </TestOption>
+          
         </div>
-        <div className='bg-zinc-800 text-red-500 border-zinc-600 px-1 border-2 mt-1 ml-5'>
-          red
-        </div>
-        <div className='bg-zinc-800 text-blue-500 border-zinc-600 px-1 border-2 mt-1 ml-5'>
-          blue
-        </div>
-        <div className='bg-zinc-800 text-yellow-500 border-zinc-600 px-1 border-2 mt-1 ml-5'>
-          yellow
-        </div>
-      </div>
+
+        <div className='bg-zinc-900 w-full h-prc5'>
+            footer
+          </div>
+
+      </div>     
+
+      
     </body>
     
     </main>
