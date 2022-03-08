@@ -1,7 +1,7 @@
 
 import React from "react"
 
-import TestButton from '../components/testbutton.js'
+import TestButton from './testbutton.js'
 
 export default function TestOption()
 {
