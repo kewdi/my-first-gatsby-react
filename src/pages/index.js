@@ -5,6 +5,7 @@ import Header from '../components/header.js'
 
 import TestOption from '../components/testoption.js'
 
+import Component3D from "../components/3dcomponent.js";
 
 
 
@@ -34,7 +35,9 @@ export default function IndexPage() {
           <div className="bg-zinc-700">
             <div className="origin-bottom-left w-[8rem] rotate-90">
               [left wing]
+              
             </div>
+            
           </div>
           
           <div className='bg-zinc-700 p-5'>
@@ -53,6 +56,8 @@ export default function IndexPage() {
 
             <div className="h-screen">
               overflow...
+              
+              <Component3D />
             </div>
           </div>
 

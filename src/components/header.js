@@ -6,7 +6,7 @@ export default function Header(page) {
             <div className='anchor-horizontal-right'>
                 <div className='anchor-vertical-bottom'>
                     <div className='flex flex-row place-items-center'>
-                        <div className='text-green-500'>
+                        <div className='text-green-400'>
                             home [src/pages/{page}]
                         </div>
                         <div className='h-[9px] px-[4px]'>

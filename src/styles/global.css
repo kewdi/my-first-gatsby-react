@@ -4,6 +4,16 @@
 
 @import 'anchoring.css';
 
+
+
+.threeDcomp {
+    will-change: transform;
+    transform: perspective(1000px) rotateX(0deg) rotateY(45deg) scale3d(1.05, 1.05, 1.05) skewY(2.5deg);
+}
+
+
+
+
 .body-structure {
     display: grid;
     width: 100%;
@@ -35,7 +45,6 @@
     flex-direction: column;
     place-items: center;
 }
-
 
 * {
     margin: 0;
